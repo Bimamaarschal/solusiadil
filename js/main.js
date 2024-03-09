@@ -78,11 +78,11 @@ Version:	1.1
 		/*===============================
 			Hero Slider JS
 		=================================*/ 
-		$(".hero-slider").owlCarousel({
+		$(".solusiadil-hero-slider").owlCarousel({
 			loop:true,
 			autoplay:true,
 			smartSpeed: 500,
-			autoplayTimeout:3500,
+			autoplayTimeout:4500,
 			singleItem: true,
 			autoplayHoverPause:true,
 			items:1,

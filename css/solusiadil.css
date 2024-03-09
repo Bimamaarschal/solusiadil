@@ -12,7 +12,7 @@ Bima Maarschal Rizky Kurnia Fallah
 	+ Widget
 	+ Main Menu
 	+ Search
-* Hero Slider CSS
+* Hero Solusiadil-slider CSS
 * Schedule CSS
 * Feautes CSS
 * Fun Facts CSS
@@ -589,19 +589,19 @@ body{
 /*===========================
 	Start Hero Area CSS
 =============================*/
-.slider .single-slider {
+.solusiadil-slider .solusiadil-single-slider {
 	height: 600px;
 	background-size: cover;
 	background-position: center;
 	background-repeat:no-repeat;
 }
-.slider .single-slider .text{
+.solusiadil-slider .solusiadil-single-slider .text{
 	margin-top:120px;
 }
-.slider.index2 .single-slider .text{
+.solusiadil-slider.index2 .solusiadil-single-slider .text{
 	margin-top:150px;
 }
-.slider .single-slider h1 {
+.solusiadil-slider .solusiadil-single-slider h1 {
 	color: #06080a;
 	font-size: 38px;
 	font-weight: 700;
@@ -609,18 +609,18 @@ body{
 	padding: 0;
 	line-height: 42px;
 }
-.slider .single-slider h1 span{
+.solusiadil-slider .solusiadil-single-slider h1 span{
 	color:#06080a;
 }
-.slider .single-slider p {
+.solusiadil-slider .solusiadil-single-slider p {
 	color: #06080a;
 	margin-top: 27px;
 	font-weight: 400;
 }
-.slider .single-slider .button{
+.solusiadil-slider .solusiadil-single-slider .button{
 	margin-top:30px;
 }
-.slider .single-slider .btn{
+.solusiadil-slider .solusiadil-single-slider .btn{
 	color:#fff;
 	background:#06080a;
 	font-weight:500;
@@ -628,24 +628,24 @@ body{
 	margin:0;
 	margin-right:10px;
 }
-.slider .single-slider .btn:last-child{
+.solusiadil-slider .solusiadil-single-slider .btn:last-child{
 	margin:0;
 }
-.slider .single-slider .btn.primary{
+.solusiadil-slider .solusiadil-single-slider .btn.primary{
 	background:#06080a;
 	color:#fff;
 }
-.slider .single-slider .btn.primary:before{
+.solusiadil-slider .solusiadil-single-slider .btn.primary:before{
 	background:#06080a;
 }
-.slider .owl-carousel .owl-nav {
+.solusiadil-slider .owl-carousel .owl-nav {
 	margin: 0;
     position: absolute;
     top: 50%;
     width: 100%;
 	margin-top:-25px;
 }
-.slider .owl-carousel .owl-nav div {
+.solusiadil-slider .owl-carousel .owl-nav div {
 	height: 50px;
 	width: 50px;
 	line-height: 50px;
@@ -661,25 +661,25 @@ body{
 	padding: 0;
 	border-radius: 5%;
 }
-.slider .owl-carousel .owl-nav  div:hover{
+.solusiadil-slider .owl-carousel .owl-nav  div:hover{
 	background:#06080a;
 	color:#fff;
 }
-.slider .owl-carousel .owl-controls .owl-nav .owl-prev{
+.solusiadil-slider .owl-carousel .owl-controls .owl-nav .owl-prev{
 	left:20px;
 }
-.slider .owl-carousel .owl-controls .owl-nav .owl-next{
+.solusiadil-slider .owl-carousel .owl-controls .owl-nav .owl-next{
 	right:20px;
 }
 
-/* Slider Animation */
-.owl-item.active .single-slider h1{
+/* Solusiadil-slider Animation */
+.owl-item.active .solusiadil-single-slider h1{
     animation: fadeInUp 1s both 0.6s;
 }
-.owl-item.active .single-slider p{
+.owl-item.active .solusiadil-single-slider p{
     animation: fadeInUp 1s both 1s;
 }
-.owl-item.active .single-slider .button{
+.owl-item.active .solusiadil-single-slider .button{
     animation: fadeInDown 1s both 1.5s;
 }
 /*===========================
@@ -1195,8 +1195,8 @@ body{
 .portfolio .owl-nav{
 	display:none;
 }
-/* Slider Nav */
-.pf-details .image-slider .owl-nav{
+/* Solusiadil-slider Nav */
+.pf-details .image-solusiadil-slider .owl-nav{
 	margin: 0;
     position: absolute;
     top: 50%;
@@ -1219,20 +1219,20 @@ body{
 	transition: all 0.4s ease;
 	box-shadow: 0px 0px 10px #0000001a;
 }
-.pf-details .image-slider .owl-carousel .owl-nav div:hover{
+.pf-details .image-solusiadil-slider .owl-carousel .owl-nav div:hover{
 	color:#fff;
 	background:#06080a;
 }
-.pf-details .image-slider .owl-carousel .owl-controls .owl-nav .owl-prev{
+.pf-details .image-solusiadil-slider .owl-carousel .owl-controls .owl-nav .owl-prev{
 	left:20px;
 }
-.pf-details .image-slider .owl-carousel .owl-controls .owl-nav .owl-next{
+.pf-details .image-solusiadil-slider .owl-carousel .owl-controls .owl-nav .owl-next{
 	right:20px;
 }
-.pf-details .image-slider{
+.pf-details .image-solusiadil-slider{
 	border-radius:8px 8px 0 0;
 }
-.pf-details .image-slider img{
+.pf-details .image-solusiadil-slider img{
 	height:100%;
 	width:100%;
 }
