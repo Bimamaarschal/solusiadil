@@ -201,7 +201,7 @@ body{
 	background:#06080a;
 }
 .color-plate span.color2{
-	background:#2196F3;
+	background:#000000;
 }
 .color-plate span.color3{
 	background:#32B87D;
@@ -897,21 +897,21 @@ body{
 /*=======================
 	Start Fun Facts CSS
 =========================*/
-.fun-facts{
+.solusiadil-funfacts{
 	position:relative;
+	background-color: #000;
 }
-.fun-facts.section{
+.solusiadil-funfacts.section{
 	padding:120px 0;
 }
-.fun-facts{
-	background:url('img/fun-bg.jpg');
+.solusiadil-funfacts{
 	background-size:cover;
-	background-repeat:no-repeat;
+	background-color: #000;
 }
-.fun-facts .single-fun {
+.solusiadil-funfacts .solusiadil-single-fun {
 	
 }
-.fun-facts .single-fun i {
+.solusiadil-funfacts .solusiadil-single-fun i {
 	position: absolute;
 	left: 0;
 	font-size: 62px;
@@ -932,15 +932,15 @@ body{
 	transition: all 0.4s ease;
 	border-radius: 50%;
 }
-.fun-facts .single-fun:hover i{
+.solusiadil-funfacts .solusiadil-single-fun:hover i{
 	color:#06080a;
 	background:#fff;
 	border-color:transparent;
 }
-.fun-facts .single-fun .content {
+.solusiadil-funfacts .solusiadil-single-fun .content {
 	padding-left: 80px;
 }
-.fun-facts .single-fun span {
+.solusiadil-funfacts .solusiadil-single-fun span {
 	color: #fff;
 	font-weight: 600;
 	font-size: 30px;
@@ -952,7 +952,7 @@ body{
 	display: block;
 	margin-bottom: 7px;
 }
-.fun-facts .single-fun p{
+.solusiadil-funfacts .solusiadil-single-fun p{
 	color:#fff;
 	font-size:15px;
 }
@@ -1955,7 +1955,7 @@ body{
 .doctor-details-item .doctor-details-biography h3 {
   font-weight: 600;
   font-size: 24px;
-  color: #2f60bd;
+  color: #000000;
   margin-bottom: 25px;
   margin-top: 25px;
 }
