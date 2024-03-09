@@ -126,7 +126,7 @@ Version:	1.1
 .slider .single-slider {
 	height: 380px;
 }
-.schedule {
+.solusiadil-fitur {
 	background: #fff;
 	margin: 0;
 	padding: 0;
@@ -134,10 +134,10 @@ Version:	1.1
 	padding: 70px 0;
 	border-bottom:1px solid #eee;
 }
-.schedule .schedule-inner {
+.solusiadil-fitur .solusiadil-fitur-inner {
 	transform: none;
 }
-.schedule .single-schedule.last{
+.solusiadil-fitur .solusiadil-fitur-single.last{
 	margin-top:30px;
 }
 .slider .single-slider{
@@ -574,7 +574,7 @@ Version:	1.1
 .slider .single-slider {
 	height: 380px;
 }
-.schedule {
+.solusiadil-fitur {
 	background: #fff;
 	margin: 0;
 	padding: 0;
@@ -582,10 +582,10 @@ Version:	1.1
 	padding: 50px 0;
 	border-bottom:1px solid #eee;
 }
-.schedule .schedule-inner {
+.solusiadil-fitur .solusiadil-fitur-inner {
 	transform: none;
 }
-.schedule .single-schedule{
+.solusiadil-fitur .solusiadil-fitur-single{
 	margin:15px 0;
 }
 .slider .single-slider{
@@ -1062,7 +1062,7 @@ Version:	1.1
 .slider .single-slider {
 	height: 380px;
 }
-.schedule {
+.solusiadil-fitur {
 	background: #fff;
 	margin: 0;
 	padding: 0;
@@ -1070,10 +1070,10 @@ Version:	1.1
 	padding: 50px 0;
 	border-bottom:1px solid #eee;
 }
-.schedule .schedule-inner {
+.solusiadil-fitur .solusiadil-fitur-inner {
 	transform: none;
 }
-.schedule .single-schedule{
+.solusiadil-fitur .solusiadil-fitur-single{
 	margin:15px 0;
 }
 .slider .single-slider{
