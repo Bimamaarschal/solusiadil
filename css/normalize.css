@@ -1,14 +1,17 @@
-/* =====================================
-Template Name: 	Mediplus.
-Author Name: Naimur Rahman
-Website: http://wpthemesgrid.com/
-Description: Mediplus - Doctor HTML Template.
-Version:	1.1
-========================================*/ 
 
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
+/*================================================
+                 SOLUSI ADIL
+---------------------- AWAL ----------------------
+              Bima Maarschal - 2024
+=================================================*/
+
+
+
+/*================================================
+GLOBAL - SOLUSI ADIL
+--------------------------------------------------
+AWAL
+=================================================*/
 html {
 	 font-family: 'Poppins', sans-serif;
 	-moz-text-size-adjust: 100%;
@@ -161,9 +164,18 @@ td,
 th {
 	padding: 0;
 }
-/*--------------------------------------------------------------
-# Typography
---------------------------------------------------------------*/
+/*================================================
+GLOBAL - SOLUSI ADIL
+--------------------------------------------------
+AKHIR
+=================================================*/
+
+
+/*================================================
+TYPOGRAPHY - SOLUSI ADIL
+--------------------------------------------------
+AWAL
+=================================================*/
 body,
 button,
 input,
@@ -234,7 +246,7 @@ big {
 
 h1,h2,h3,h4,h5,h6{
 	font-weight:500;
-	color:#2C2D3F;
+	color:#14191D;
 }
 a,button{
 	-webkit-transition:all 0.3s ease;
@@ -248,9 +260,18 @@ a:hover{
 	text-decoration:none;
 }
 /*================================================
-Preloader Area CSS
+TYPOGRAPHY - SOLUSI ADIL
+--------------------------------------------------
+AKHIR
 =================================================*/
-.preloader {
+
+
+/*================================================
+PRELOADER - SOLUSI ADIL
+--------------------------------------------------
+AWAL
+=================================================*/
+.solusiadil-preloader {
   position: fixed;
   left: 0;
   width: 0;
@@ -262,7 +283,7 @@ Preloader Area CSS
   transition: .9s;
 }
 
-.preloader .loader {
+.solusiadil-preloader .loader {
   position: absolute;
   width: 80px;
   height: 80px;
@@ -278,7 +299,7 @@ Preloader Area CSS
   transition: 0.5s;
 }
 
-.preloader .loader .loader-outter {
+.solusiadil-preloader .loader .loader-outter {
   position: absolute;
   border: 4px solid #ffffff;
   border-left-color: transparent;
@@ -290,7 +311,7 @@ Preloader Area CSS
           animation: loader-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
 }
 
-.preloader .loader .loader-inner {
+.solusiadil-preloader .loader .loader-inner {
   position: absolute;
   border: 4px solid #ffffff;
   border-radius: 50%;
@@ -304,7 +325,7 @@ Preloader Area CSS
           animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
 }
 
-.preloader .loader .indicator {
+.solusiadil-preloader .loader .indicator {
   position: absolute;
   right: 0;
   left: 0;
@@ -313,18 +334,18 @@ Preloader Area CSS
           transform: translateY(-50%) scale(1.5);
 }
 
-.preloader .loader .indicator svg polyline {
+.solusiadil-preloader .loader .indicator svg polyline {
   fill: none;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
-.preloader .loader .indicator svg polyline#back {
+.solusiadil-preloader .loader .indicator svg polyline#back {
   stroke: #ffffff;
 }
 
-.preloader .loader .indicator svg polyline#front {
+.solusiadil-preloader .loader .indicator svg polyline#front {
   stroke: #06080a;
   stroke-dasharray: 12, 36;
   stroke-dashoffset: 48;
@@ -332,7 +353,7 @@ Preloader Area CSS
           animation: dash 1s linear infinite;
 }
 
-.preloader::before, .preloader::after {
+.solusiadil-preloader::before, .solusiadil-preloader::after {
   content: '';
   position: absolute;
   left: 0;
@@ -345,23 +366,30 @@ Preloader Area CSS
   transition: .9s;
 }
 
-.preloader::after {
+.solusiadil-preloader::after {
   left: auto;
   right: 0;
 }
 
-.preloader.preloader-deactivate {
+.solusiadil-preloader.solusiadil-preloader-deactivate {
   visibility: hidden;
 }
 
-.preloader.preloader-deactivate::after, .preloader.preloader-deactivate::before {
+.solusiadil-preloader.solusiadil-preloader-deactivate::after, .solusiadil-preloader.solusiadil-preloader-deactivate::before {
   width: 0;
 }
 
-.preloader.preloader-deactivate .loader {
+.solusiadil-preloader.solusiadil-preloader-deactivate .loader {
   opacity: 0;
   visibility: hidden;
 }
+/*================================================
+PRELOADER - SOLUSI ADIL
+--------------------------------------------------
+AKHIR
+=================================================*/
+
+
 
 @-webkit-keyframes loader-outter {
   0% {
@@ -455,7 +483,7 @@ Preloader Area CSS
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: #2C2D3F;
+	background: #14191d;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transform-origin: 50%;
@@ -483,7 +511,7 @@ Preloader Area CSS
 	text-transform: capitalize;
 	margin-bottom: 24px;
 	position: relative;
-	color: #2C2D3F;
+	color: #14191D;
 }
 .section-title p{
 	font-size:15px;
@@ -552,7 +580,7 @@ Preloader Area CSS
 	padding:0;
 }
 .breadcrumbs ul li a:hover{
-	color:#2C2D3F;
+	color:#14191D;
 }
 .breadcrumbs ul li.active a {
 	color: #fff;

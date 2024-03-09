@@ -28,7 +28,7 @@ Version:	1.1
 * Animate Scroll JS
 * Stellar JS
 * Google Maps JS
-* Preloader JS
+* Solusiadil-preloader JS
 =========================================
 [End Activation Code]
 =========================================*/ 
@@ -55,8 +55,8 @@ Version:	1.1
 			}
 		});
 		
-		$('.pro-features .get-pro').on( "click", function(){
-			$('.pro-features').toggleClass('active');
+		$('.solusiadil-aksescepat .get-aksescepat').on( "click", function(){
+			$('.solusiadil-aksescepat').toggleClass('active');
 		});
 		
 		/*====================================
@@ -321,10 +321,10 @@ Version:	1.1
 	});
 	
 	/*====================
-		Preloader JS
+		Solusiadil-preloader JS
 	======================*/
 	$(window).on('load', function() {
-		$('.preloader').addClass('preloader-deactivate');
+		$('.solusiadil-preloader').addClass('solusiadil-preloader-deactivate');
 	});
 	
 	

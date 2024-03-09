@@ -7,7 +7,7 @@ Bima Maarschal Rizky Kurnia Fallah
 [ CSS Table of contents ]
 * Global CSS
 * Header CSS
-	+ Topbar
+	+ Solusiadil-topbar
 	+ Logo
 	+ Widget
 	+ Main Menu
@@ -53,7 +53,7 @@ body{
 	font-size:14px;
 	color:#888;
 }
-.pro-features {
+.solusiadil-aksescepat {
 	position: fixed;
 	right: -300px;
 	width: 300px;
@@ -73,21 +73,21 @@ body{
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-.pro-features.active{
+.solusiadil-aksescepat.active{
 	right:0;
 }
-.pro-features li.big-title {
+.solusiadil-aksescepat li.judul-aksescepat {
 	font-weight: 600;
 	color: #06080a;
 	font-size: 15px;
 }
-.pro-features li.title {
+.solusiadil-aksescepat li.title {
 	font-weight: 600;
 	color: #06080a;
 	font-size: 15px;
 }
-.pro-features .button{}
-.pro-features .button .btn {
+.solusiadil-aksescepat .button{}
+.solusiadil-aksescepat .button .btn {
 	width: 100%;
 	text-align: center;
 	margin-top: 8px;
@@ -97,14 +97,14 @@ body{
 	width: 100%;
 	text-transform: capitalize;
 }
-.pro-features li {
+.solusiadil-aksescepat li {
 	color: #333;
 	margin: 0;
 	padding: 0;
 	line-height: 22px;
 	margin-bottom: 10px;
 }
-.get-pro {
+.get-aksescepat {
 	position: absolute;
 	left: -80px;
 	width:80px;
@@ -119,7 +119,7 @@ body{
 	cursor: pointer;
 	box-shadow: -4px 0px 5px #00000036;
 }
-.get-pro:hover{	
+.get-aksescepat:hover{	
 }
 #scrollUp {
 	bottom: 15px;
@@ -247,50 +247,50 @@ body{
 .header .navbar-collapse{
 	padding:0;
 }
-/* Topbar */
-.header .topbar{
+/* Solusiadil-topbar */
+.header .solusiadil-topbar{
 	background-color:#fff;
 	border-bottom:1px solid #eee;
 }
-.header .topbar{
+.header .solusiadil-topbar{
 	padding:15px 0;
 }
-.header .top-link{
+.header .solusiadil-top-link{
 	float:left;
 }
-.header .top-link li{
+.header .solusiadil-top-link li{
 	display:inline-block;
 	margin-right:15px;
 }
-.header .top-link li:last-child{
+.header .solusiadil-top-link li:last-child{
 	margin-right:0px;
 }
-.header .top-link li a{
+.header .solusiadil-top-link li a{
 	color:#06080a;
 	font-size:14px;
 	font-weight:400;
 }
-.header .top-link li:hover a{
+.header .solusiadil-top-link li:hover a{
 	color:#06080a;
 }
-.header .top-contact{
+.header .solusiadil-top-contact{
 	float:right;
 }
-.header .top-contact li{
+.header .solusiadil-top-contact li{
 	display:inline-block;
 	margin-right:25px;
 	color:#06080a;
 }
-.header .top-contact li:last-child{
+.header .solusiadil-top-contact li:last-child{
 	margin-right:0;
 }
-.header .top-contact li a{
+.header .solusiadil-top-contact li a{
 	font-size:14px;
 }
-.header .top-contact li a:hover{
+.header .solusiadil-top-contact li a:hover{
 	color:#06080a;
 }
-.header .top-contact li i{
+.header .solusiadil-top-contact li i{
 	color:#06080a;
 	margin-right:8px;
 }
@@ -659,9 +659,9 @@ body{
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 	padding: 0;
-	border-radius: 50%;
+	border-radius: 5%;
 }
-.slider .owl-carousel .owl-nav div:hover{
+.slider .owl-carousel .owl-nav  div:hover{
 	background:#06080a;
 	color:#fff;
 }
@@ -1467,7 +1467,6 @@ body{
 	border-radius: 3px;
 	margin: 0 0 0 -52px;
 	margin-top: 49px;
-	box-sizing: ;
 }
 .testimonials .owl-dots .owl-dot {
 	display: inline-block;
