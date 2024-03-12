@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    # Menghapus ekstensi .html untuk halaman index
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^index$ index.html [NC,L]
+
+    # Menghapus ekstensi .html untuk halaman tentang-kami
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^tentangkami$ tentangkami.html [NC,L]
+
+</IfModule>
