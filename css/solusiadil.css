@@ -38,7 +38,7 @@ Bima Maarschal Rizky Kurnia Fallah
 * Contact Us CSS
 * Error 404 CSS
 * Mail Success CSS
-* Newsletter CSS
+* Solusiadil-bergabung CSS
 * Doctor Calendar CSS
 * About Us CSS
 * Footer CSS
@@ -3541,22 +3541,22 @@ body{
 =============================*/ 
 
 /*=========================
-	Start Newsletter CSS
+	Start Solusiadil-bergabung CSS
 ===========================*/  
-.newsletter{
+.solusiadil-bergabung{
 	background:#EDF2FF;
 }
-.newsletter .subscribe-text{}
-.newsletter .subscribe-text h6{
+.solusiadil-bergabung .subscribe-text{}
+.solusiadil-bergabung .subscribe-text h6{
 	font-size:22px;
 	margin-bottom:10px;
 	color:#06080a;
 }
-.newsletter .subscribe-text p{}
-.newsletter .subscribe-form{
+.solusiadil-bergabung .subscribe-text p{}
+.solusiadil-bergabung .subscribe-form{
 	position:relative;
 }
-.newsletter .common-input {
+.solusiadil-bergabung .common-input {
 	height: 60px;
 	width: 300px;
 	border: none;
@@ -3570,7 +3570,7 @@ body{
 	background: #fff;
 	font-weight:400;
 }
-.newsletter .btn {
+.solusiadil-bergabung .btn {
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
@@ -3587,14 +3587,14 @@ body{
 	font-weight: 500;
 	box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
 }
-.newsletter .btn:before{
+.solusiadil-bergabung .btn:before{
 	border-radius: 5px;
 }
-.newsletter .button:hover{
+.solusiadil-bergabung .button:hover{
 	box-shadow:none;
 }
 /*=========================
-	End Newsletter CSS
+	End Solusiadil-bergabung CSS
 ===========================*/  
 
 /*===============================
@@ -4080,11 +4080,11 @@ body{
 .footer .single-footer p{
 	color:#fff;
 }
-.footer .single-footer .newsletter-inner{
+.footer .single-footer .solusiadil-bergabung-inner{
 	margin-top:20px;
 	position:relative;
 }
-.footer .single-footer .newsletter-inner input {
+.footer .single-footer .solusiadil-bergabung-inner input {
 	background: transparent;
 	border: 1px solid #fff;
 	height: 50px;
@@ -4103,7 +4103,7 @@ body{
 	font-weight: 400;
 	border-radius: 5px;
 }
-.footer .single-footer .newsletter-inner input:hover{
+.footer .single-footer .solusiadil-bergabung-inner input:hover{
 	padding-left: 22px;
 }
 .footer input::-webkit-input-placeholder {
@@ -4124,7 +4124,7 @@ body{
     opacity: 1;
     color: #fff !important;
 }
-.footer .single-footer .newsletter-inner .button {
+.footer .single-footer .solusiadil-bergabung-inner .button {
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -4145,12 +4145,12 @@ body{
 	color: #06080a;
 	font-size: 25px;
 }
-.footer .single-footer .newsletter-inner .button i{
+.footer .single-footer .solusiadil-bergabung-inner .button i{
 	-webkit-transition:all 0.4s ease;
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-.footer .single-footer .newsletter-inner .button:hover i{
+.footer .single-footer .solusiadil-bergabung-inner .button:hover i{
 	color:#06080a;
 }
 .footer .copyright{
