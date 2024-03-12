@@ -2,11 +2,30 @@
 
     RewriteEngine On
 
-    # Menghapus ekstensi .html untuk halaman index
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^blog$ blog.html [NC,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^daftar$ daftar.html [NC,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^faq$ faq.html [NC,L]
+
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^index$ index.html [NC,L]
 
-    # Menghapus ekstensi .html untuk halaman tentang-kami
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^konsultasi$ konsultasi.html [NC,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^layanan$ layanan.html [NC,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^masuk$ masuk.html [NC,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^panduan$ panduan.html [NC,L]
+
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^tentangkami$ tentangkami.html [NC,L]
 
