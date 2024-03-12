@@ -13,9 +13,9 @@ Version:	1.1
 * Mobile Menu JS
 * Hero Slider JS
 * Testimonial Slider JS
-* Portfolio Slider JS
+* Solusiadil-galeri Slider JS
 * Clients Slider JS
-* Single Portfolio Slider JS
+* Single Solusiadil-galeri Slider JS
 * Accordion JS
 * Nice Select JS
 * Date Picker JS
@@ -124,9 +124,9 @@ Version:	1.1
 		});
 		
 		/*===============================
-			Portfolio Slider JS
+			Solusiadil-galeri Slider JS
 		=================================*/ 
-		$('.portfolio-slider').owlCarousel({
+		$('.solusiadil-galeri-slider').owlCarousel({
 			autoplay:true,
 			autoplayTimeout:4000,
 			margin:15,
@@ -189,7 +189,7 @@ Version:	1.1
 		});
 		
 		/*====================================
-			Single Portfolio Slider JS
+			Single Solusiadil-galeri Slider JS
 		======================================*/ 
 		$('.pf-details-slider').owlCarousel({
 			items:1,

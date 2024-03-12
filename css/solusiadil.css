@@ -14,12 +14,12 @@ Bima Maarschal Rizky Kurnia Fallah
 	+ Search
 * Hero Solusiadil-slider CSS
 * Solusiadil-fitur CSS
-* Feautes CSS
+* Solusiadil-kenapa CSS
 * Fun Facts CSS
 * Why Choose CSS
 * Call to Action CSS
-* Portfolio CSS
-	+ Portfolio Single CSS
+* Solusiadil-galeri CSS
+	+ Solusiadil-galeri Single CSS
 * Services CSS
 * Testimonials CSS
 * Departments CSS
@@ -829,23 +829,25 @@ body{
 ===============================*/
 
 /*=============================
-	Start Feautes CSS
+	Start Solusiadil-kenapa CSS
 ===============================*/
-.Feautes{
+.Solusiadil-kenapa{
 	padding-top:0;
 }
-.Feautes.index2{
+.Solusiadil-kenapa.index2{
 	padding-top:100px;
+	padding-bottom:0px;
 }
-.Feautes.testimonial-page{
+.Solusiadil-kenapa.testimonial-page{
 	padding-top:100px;
+	padding-bottom:0px;
 }
-.Feautes .single-features{
+.Solusiadil-kenapa .solusiadil-single-kenapa{
 	text-align:center;
 	position:relative;
 	padding:10px 20px;
 }
-.Feautes .single-features::before {
+.Solusiadil-kenapa .solusiadil-single-kenapa::before {
 	position: absolute;
 	content: "";
 	right: -72px;
@@ -853,13 +855,13 @@ body{
 	width: 118px;
 	border-bottom: 3px dotted #06080a;
 }
-.Feautes .single-features.last::before{
+.Solusiadil-kenapa .solusiadil-single-kenapa.last::before{
 	display:none;
 }
-.Feautes .single-features .signle-icon{
+.Solusiadil-kenapa .solusiadil-single-kenapa .signle-icon{
 	position:relative;
 }
-.Feautes .single-features .signle-icon i{
+.Solusiadil-kenapa .solusiadil-single-kenapa .signle-icon i{
 	font-size:50px;
 	color:#06080a;
 	position:absolute;
@@ -876,22 +878,22 @@ body{
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-.Feautes .single-features:hover .signle-icon i{
+.Solusiadil-kenapa .solusiadil-single-kenapa:hover .signle-icon i{
 	background:#06080a;
 	color:#fff;
 	border-color:transparent;
 }
-.Feautes .single-features h3{
+.Solusiadil-kenapa .solusiadil-single-kenapa h3{
 	padding-top: 128px;
 	color:#06080a;
 	font-weight:600;
 	font-size:21px;
 }
-.Feautes .single-features p {
+.Solusiadil-kenapa .solusiadil-single-kenapa p {
 	margin-top: 20px;
 }
 /*=============================
-	End Feautes CSS
+	End Solusiadil-kenapa CSS
 ===============================*/
 
 /*=======================
@@ -909,7 +911,7 @@ body{
 	background-color: #000;
 }
 .solusiadil-funfacts .solusiadil-single-fun {
-	
+	padding-bottom: 0px;
 }
 .solusiadil-funfacts .solusiadil-single-fun i {
 	position: absolute;
@@ -1130,19 +1132,19 @@ body{
 =================================*/
 
 /*==========================
-	Start Portfolio CSS
+	Start Solusiadil-galeri CSS
 ============================*/
-.portfolio{
+.solusiadil-galeri{
 	background:#FDFDFD;
 }
-.portfolio .single-pf{
+.solusiadil-galeri .single-pf{
 	position:relative;
 }
-.portfolio .single-pf img{
+.solusiadil-galeri .single-pf img{
 	height:100%;
 	width:100%;
 }
-.portfolio .single-pf:before{
+.solusiadil-galeri .single-pf:before{
 	position:absolute;
 	content:"";
 	left:0;
@@ -1157,11 +1159,11 @@ body{
 	transition:all 0.4s ease;
 	z-index:1;
 }
-.portfolio .single-pf:hover:before{
+.solusiadil-galeri .single-pf:hover:before{
 	opacity:0.7;
 	visibility:visible;
 }
-.portfolio .single-pf .btn {
+.solusiadil-galeri .single-pf .btn {
 	color: #06080a;
 	z-index: 3;
 	background: #fff;
@@ -1185,14 +1187,14 @@ body{
 	margin-top: -24px;
 	border-radius:4px;
 }
-.portfolio .single-pf:hover .btn{
+.solusiadil-galeri .single-pf:hover .btn{
 	opacity:1;
 	visibility:visible;
 }
-.portfolio .single-pf .btn:hover{
+.solusiadil-galeri .single-pf .btn:hover{
 	color:#fff;
 }
-.portfolio .owl-nav{
+.solusiadil-galeri .owl-nav{
 	display:none;
 }
 /* Solusiadil-slider Nav */
@@ -1305,7 +1307,7 @@ body{
 	background:#06080a;
 }
 /*==========================
-	End Portfolio CSS
+	End Solusiadil-galeri CSS
 ============================*/
 
 /*=========================
@@ -1998,7 +2000,7 @@ body{
 .blog .blog-title{
 	text-align:center;
 }
-.blog .single-news {
+.blog .solusiadil-single-blog {
 	background: #fff;
 	position: relative;
 	-webkit-transition: all 0.4s ease;
@@ -2006,7 +2008,7 @@ body{
 	transition: all 0.4s ease;
 	box-shadow: 0px 0px 10px #00000014;
 }
-.blog .single-news img{
+.blog .solusiadil-single-blog img{
 	width:100%;
 	margin:0;
 	padding:0;
@@ -2014,11 +2016,11 @@ body{
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-.blog .single-news .news-head{
+.blog .solusiadil-single-blog .solusiadil-head-blog{
 	position:relative;
 	overflow:hidden;
 }
-.blog .single-news .news-content {
+.blog .solusiadil-single-blog .solusiadil-content-blog {
 	text-align: left;
 	background: #fff;
 	z-index: 99;
@@ -2027,7 +2029,7 @@ body{
 	left: 0;
 	z-index: 0;
 }
-.blog .single-news .news-content:before{
+.blog .solusiadil-single-blog .solusiadil-content-blog:before{
 	position:absolute;
 	content:"";
 	left:0;
@@ -2041,32 +2043,32 @@ body{
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-.blog .single-news:hover .news-content:before{
+.blog .solusiadil-single-blog:hover .solusiadil-content-blog:before{
 	opacity:1;
 	visibility:visible;
 	width:100%;
 }
-.blog .single-news .news-body h2 {
+.blog .solusiadil-single-blog .solusiadil-body-blog h2 {
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 10px;
 	line-height: 24px;
 }
-.blog .single-news .news-body h2 a{
+.blog .solusiadil-single-blog .solusiadil-body-blog h2 a{
 	color:#06080a;
 	font-weight: 500;
 }
-.blog .single-news .news-body h2 a:hover{
+.blog .solusiadil-single-blog .solusiadil-body-blog h2 a:hover{
 	color:#06080a;
 }
-.blog .single-news .news-content p {
+.blog .solusiadil-single-blog .solusiadil-content-blog p {
 	font-weight: 400;
 	text-transform: capitalize;
 	font-size: 13px;
 	letter-spacing: 0px;
 	line-height: 23px;
 }
-.blog .single-news .news-body .date {
+.blog .solusiadil-single-blog .solusiadil-body-blog .date {
 	display: inline-block;
 	font-size: 14px;
 	margin-bottom: 5px;
@@ -2077,7 +2079,7 @@ body{
 	font-size: 14px;
 	margin-bottom: 10px;
 }
-.blog.grid .single-news{
+.blog.grid .solusiadil-single-blog{
 	margin-top:30px;
 }
 /* Blog Sidebar */
@@ -2283,8 +2285,8 @@ body{
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
 	border-radius: 8px;
 }
-.news-single .news-head{}
-.news-single .news-head img{
+.news-single .solusiadil-head-blog{}
+.news-single .solusiadil-head-blog img{
 	width:100%;
 	height:100%;
 }
@@ -2345,13 +2347,13 @@ body{
 	float: right;
 	margin-top: 10px;
 }
-.news-single .news-content{
+.news-single .solusiadil-content-blog{
 	margin:20px 0;
 }
-.news-single .news-content p{
+.news-single .solusiadil-content-blog p{
 	margin-bottom:10px;
 }
-.news-single .news-content p:last-child{
+.news-single .solusiadil-content-blog p:last-child{
 	margin:0;
 }
 .news-single .news-text p {
