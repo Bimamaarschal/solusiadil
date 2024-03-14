@@ -541,7 +541,7 @@ AKHIR
 	opacity:0.8;
 }
 /* Bread Crumbs */
-.breadcrumbs {
+.textawal {
 	background-image: url('../img/bread-bg.jpg');
 	background-size: cover;
 	background-position: center;
@@ -549,11 +549,11 @@ AKHIR
 	position: relative;
 	padding: 120px 0px;
 }
-.breadcrumbs .bread-inner{
+.textawal .textawal-inner{
 	z-index:22;
 	text-align:center;
 }
-.breadcrumbs h2{
+.textawal h2{
 	color: #fff;
 	text-transform:capitalize;
 	font-size: 38px;
@@ -561,11 +561,11 @@ AKHIR
 	margin: 0;
 	padding: 0;
 }
-.breadcrumbs .bread-list {
+.textawal .bread-list {
 	display: inline-block;
 	margin-top: 20px;
 }
-.breadcrumbs ul li{
+.textawal ul li{
 	display: inline-block;
 	position: relative;
 	color: #fff;
@@ -573,13 +573,13 @@ AKHIR
 	font-weight: 500;
 	text-transform: capitalize;
 }
-.breadcrumbs ul li i {
+.textawal ul li i {
 	margin: 0px 10px;
 	font-size: 14px;
 	font-weight: 600;
 	color:#fff;
 }
-.breadcrumbs ul li a {
+.textawal ul li a {
 	color: #fff;
 	font-size: 15px;
 	font-weight: 500;
@@ -587,10 +587,10 @@ AKHIR
 	margin:0;
 	padding:0;
 }
-.breadcrumbs ul li a:hover{
+.textawal ul li a:hover{
 	color:#14191D;
 }
-.breadcrumbs ul li.active a {
+.textawal ul li.active a {
 	color: #fff;
 	display: inline-block;
 }

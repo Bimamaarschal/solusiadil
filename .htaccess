@@ -12,10 +12,16 @@
     RewriteRule ^faq$ faq.html [NC,L]
 
     RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^gabung$ gabung.html [NC,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^index$ index.html [NC,L]
 
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^konsultasi$ konsultasi.html [NC,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^kontak$ kontak.html [NC,L]
 
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^layanan$ layanan.html [NC,L]

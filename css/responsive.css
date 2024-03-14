@@ -19,17 +19,17 @@
 	font-weight: 400;
 	font-size: 13px;
 }
-.breadcrumbs {
+.textawal {
 	padding: 60px 0;
 }
-.breadcrumbs h2 {
+.textawal h2 {
 	font-size: 32px;
 	font-weight:600;
 }
-.breadcrumbs .bread-list {
+.textawal .bread-list {
 	margin-top: 5px;
 }
-.breadcrumbs ul li a {
+.textawal ul li a {
 	font-size: 14px;
 	font-weight: 400;
 }
@@ -531,21 +531,21 @@
 	font-size: 13px;
 }
 
-.breadcrumbs {
+.textawal {
 	padding: 60px 0;
 }
-.breadcrumbs h2 {
+.textawal h2 {
 	font-size: 32px;
 	font-weight:600;
 }
-.breadcrumbs .bread-list {
+.textawal .bread-list {
 	margin-top:10px;
 }
-.breadcrumbs ul li{
+.textawal ul li{
 	font-size: 14px;
 	font-weight: 400;
 }
-.breadcrumbs ul li a {
+.textawal ul li a {
 	font-size: 14px;
 	font-weight: 400;
 }
