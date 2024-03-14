@@ -2000,9 +2000,15 @@ body{
 .blog .blog-title{
 	text-align:center;
 }
+.solusiadil-padblog{
+	padding-bottom: 50px;
+}
+
+
 .blog .solusiadil-single-blog {
 	background: #fff;
 	position: relative;
+	padding-bottom: 20px;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
