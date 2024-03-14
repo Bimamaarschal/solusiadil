@@ -35,4 +35,7 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^tentangkami$ tentangkami.html [NC,L]
 
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^$ index.html [NC,L]
+
 </IfModule>
